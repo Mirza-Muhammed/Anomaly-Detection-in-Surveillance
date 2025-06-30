@@ -14,12 +14,6 @@ This project implements an unsupervised anomaly detection system for surveillanc
 
 ---
 
-# 🎯 Surveillance Anomaly Detection
-
-An unsupervised deep learning-based system to identify unusual activities in surveillance videos.
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -95,6 +89,9 @@ python print_frame_results.py
 ```bash
 python view_results.py
 ```
+## 📹 Demo Video (Unlisted)
+
+📺 [👉 Watch the Demo Video Here](https://youtu.be/JSQ_Y81evwg)
 
 ---
 
