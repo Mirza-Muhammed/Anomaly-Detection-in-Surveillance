@@ -31,8 +31,6 @@ surveillance_anomaly_detection_project/
     └── test/                   # Converted testing videos
 
 
----
-
 ## ⚙️ Installation
 
 Make sure you have Python 3.7+ installed.
