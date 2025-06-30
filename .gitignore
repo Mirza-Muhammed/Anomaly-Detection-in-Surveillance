@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Output files
+results.npy
+frame_results.txt
+anomaly_model.pth
+
+# Converted videos (can be regenerated)
+sample_data/train/*.mp4
+sample_data/test/*.mp4
+
+# System files
+.DS_Store
+Thumbs.db
