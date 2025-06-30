@@ -12,6 +12,14 @@ This project implements an unsupervised anomaly detection system for surveillanc
 - **Dataset:** UCSD Pedestrian (Ped1)  
 - **Tools:** PyTorch, NumPy, OpenCV, Matplotlib  
 
+## 🧠 Solution Approach
+
+This system uses an unsupervised learning approach with a 3D Convolutional Autoencoder trained only on normal video clips. The model learns to reconstruct normal patterns in surveillance footage. During inference, high reconstruction errors suggest potential anomalies.
+
+- **Model:** 3D Convolutional Autoencoder (spatio-temporal modeling)
+- **Training:** Only on normal clips (no anomaly labels needed)
+- **Anomaly Detection:** Based on reconstruction error thresholding
+
 ---
 
 ## 📁 Project Structure
