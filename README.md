@@ -16,7 +16,19 @@ This project implements an unsupervised anomaly detection system for surveillanc
 
 ## 📁 Project Structure
 
-<pre> ```text surveillance_anomaly_detection_project/ ├── anomaly_detection.py # Model training & evaluation ├── convert_ucsd.py # Converts UCSD tif frames to mp4 ├── view_results.py # Visualizes test video + anomaly status ├── print_frame_results.py # Saves results to frame_results.txt ├── results.npy # Saved frame-wise reconstruction errors ├── anomaly_model.pth # Trained model ├── frame_results.txt # Output summary (frame-wise labels) ├── requirements.txt # Dependencies └── sample_data/ ├── train/ # Converted training videos └── test/ # Converted testing videos ``` </pre>
+```text
+surveillance_anomaly_detection_project/
+├── anomaly_detection.py        # Model training & evaluation
+├── convert_ucsd.py             # Converts UCSD tif frames to mp4
+├── view_results.py             # Visualizes test video + anomaly status
+├── print_frame_results.py      # Saves results to frame_results.txt
+├── results.npy                 # Saved frame-wise reconstruction errors
+├── anomaly_model.pth           # Trained model
+├── frame_results.txt           # Output summary (frame-wise labels)
+├── requirements.txt            # Dependencies
+└── sample_data/
+    ├── train/                  # Converted training videos
+    └── test/                   # Converted testing videos
 
 
 ---
