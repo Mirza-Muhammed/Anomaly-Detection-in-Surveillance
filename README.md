@@ -26,13 +26,11 @@ This system uses an unsupervised learning approach with a 3D Convolutional Autoe
 
 ```
 surveillance_anomaly_detection_project/
+├── .gitignore                  # Automatically generated 
 ├── anomaly_detection.py        # Model training & evaluation
 ├── convert_ucsd.py             # Converts UCSD tif frames to mp4
 ├── view_results.py             # Visualizes test video + anomaly status
-├── print_frame_results.py      # Saves results to frame_results.txt
-├── results.npy                 # Saved frame-wise reconstruction errors
-├── anomaly_model.pth           # Trained model
-├── frame_results.txt           # Output summary (frame-wise labels)
+├── print_frame_results.py      # Saves results to frame_results.txt     
 ├── requirements.txt            # Dependencies
 └── sample_data/
     ├── train/                  # Converted training videos
